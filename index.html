@@ -26,7 +26,7 @@
             </div>
             <div class="navbar-center hidden lg:flex">
               <ul class="menu menu-horizontal px-1">
-                <button class="btn bg-gray-500 text-white hover:bg-black ">Sort by view</button>
+                <button id="short-btn" class="btn bg-gray-500 text-white hover:bg-black ">Sort by view</button>
               </ul>
             </div>
             <div class="navbar-end">
@@ -38,37 +38,16 @@
         <!-- all catalog dynamic btn here -->
         <section>
             <div id="btn-container" class="flex justify-center items-center gap-3 my-8">
-                <!-- <button class="btn bg-gray-300 px-5 hover:text-white">All</button>
-                <button class="btn bg-gray-300 px-5 hover:text-white">Music</button>
-                <button class="btn bg-gray-300 px-5 hover:text-white">Comedy</button>
-                <button class="btn bg-gray-300 px-5 hover:text-white">Drawing</button> -->
             </div>
         </section>
         <!-- all card here dynamic -->
         <section>
             <div id="card-container" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5">
-                <!-- <div class="card card-compact w-96 bg-base-100 shadow-xl py-2">
-                    <figure><img src="https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg" alt="Shoes" /></figure>
-                    <div class="">
-                      <div class="flex gap-3 space-y-3">
-                        <img src="images/Ellipse 1 (1).svg" alt="picture" class="relative">
-                        <p class="absolute top-44 right-4 bg-gray-800 text-white p-1 rounded-lg">3hrs 56 min ago</p>
-                         <div class="space-y-2">
-                            <p class="font-bold">Building a Winning UX Strategy Using the Kano Model</p>
-                         </div>
-                      </div>
-                      <div class="flex gap-3 items-center pl-12 ">
-                        <h1 class="text-gray-600">Awlad Hossain</h1>
-                         <img src="" alt="logo"> 
-                    </div>
-                     <h1 class="pl-12 text-gray-600">999k views</h1>
-                    </div>
-                  </div> -->
             </div> 
 
         </section>
         <!-- btn data empty then show this message -->
-        <section class="hidden">
+        <section id="error-data" class="hidden">
             <div class="flex justify-center items-center h-96">
                 <div class="card">
                     <div class="flex flex-col items-center">
